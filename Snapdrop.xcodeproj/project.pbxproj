@@ -38,6 +38,7 @@
 		E260B5EA272487C30010008C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E260B5EC272487C30010008C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E267AB6B2724AB8F00191D15 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		E283D2A12724D2C700087A8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		E22BFBE027245172004D2642 = {
 			isa = PBXGroup;
 			children = (
+				E283D2A12724D2C700087A8A /* README.md */,
 				E267AB6B2724AB8F00191D15 /* Config.xcconfig */,
 				E22BFC1627245A2E004D2642 /* Shared */,
 				E22BFBEB27245172004D2642 /* App (macOS) */,
