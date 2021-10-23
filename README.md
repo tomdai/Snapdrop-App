@@ -6,6 +6,8 @@ Native iOS and macOS apps for [Snapdrop](https://snapdrop.net/) ([GitHub](https:
 
 Both apps are usable, but you may encounter many little [issues](https://github.com/tomdai/snapdrop-app/issues).
 
+The apps might not work when iCloud Private Relay or any other proxy is enabled.
+
 ## Contribute
 
 Contributions are welcome. Known issues can be found on the [Issues](https://github.com/tomdai/snapdrop-app/issues) page.
