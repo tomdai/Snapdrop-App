@@ -1,0 +1,14 @@
+scripts/network.js, line 61-62
+const url = "wss://snapdrop.net/server/webrtc"
+
+style.css, line 22
+overflow: hidden;
+
+style.css, html,body
+-webkit-user-select: none;
+
+style.css, typography
+pointer: default;
+
+html text styles
+pointer: default;

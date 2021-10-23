@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E22BFBED27245172004D2642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BFBEC27245172004D2642 /* AppDelegate.swift */; };
+		E22BFBEF27245172004D2642 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BFBEE27245172004D2642 /* ViewController.swift */; };
+		E22BFBF127245172004D2642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22BFBF027245172004D2642 /* Assets.xcassets */; };
+		E22BFBF427245172004D2642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22BFBF227245172004D2642 /* Main.storyboard */; };
+		E22BFC35272469E1004D2642 /* Web Content in Resources */ = {isa = PBXBuildFile; fileRef = E22BFC34272469E1004D2642 /* Web Content */; };
+		E260B5DF272487C20010008C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260B5DE272487C20010008C /* AppDelegate.swift */; };
+		E260B5E1272487C20010008C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260B5E0272487C20010008C /* SceneDelegate.swift */; };
+		E260B5E3272487C20010008C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260B5E2272487C20010008C /* ViewController.swift */; };
+		E260B5E6272487C20010008C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E260B5E4272487C20010008C /* Main.storyboard */; };
+		E260B5E8272487C30010008C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E260B5E7272487C30010008C /* Assets.xcassets */; };
+		E260B5EB272487C30010008C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E260B5E9272487C30010008C /* LaunchScreen.storyboard */; };
+		E260B5F0272487D20010008C /* Web Content in Resources */ = {isa = PBXBuildFile; fileRef = E22BFC34272469E1004D2642 /* Web Content */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E22BFBE927245172004D2642 /* Snapdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapdrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22BFBEC27245172004D2642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E22BFBEE27245172004D2642 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E22BFBF027245172004D2642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E22BFBF327245172004D2642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E22BFBF527245172004D2642 /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		E22BFC34272469E1004D2642 /* Web Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Web Content"; sourceTree = "<group>"; };
+		E260B5DC272487C20010008C /* Snapdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapdrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E260B5DE272487C20010008C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E260B5E0272487C20010008C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E260B5E2272487C20010008C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E260B5E5272487C20010008C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E260B5E7272487C30010008C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E260B5EA272487C30010008C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E260B5EC272487C30010008C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E267AB6B2724AB8F00191D15 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E22BFBE627245172004D2642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E260B5D9272487C20010008C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E22BFBE027245172004D2642 = {
+			isa = PBXGroup;
+			children = (
+				E267AB6B2724AB8F00191D15 /* Config.xcconfig */,
+				E22BFC1627245A2E004D2642 /* Shared */,
+				E22BFBEB27245172004D2642 /* App (macOS) */,
+				E260B5DD272487C20010008C /* App (iOS) */,
+				E22BFBEA27245172004D2642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E22BFBEA27245172004D2642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E22BFBE927245172004D2642 /* Snapdrop.app */,
+				E260B5DC272487C20010008C /* Snapdrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E22BFBEB27245172004D2642 /* App (macOS) */ = {
+			isa = PBXGroup;
+			children = (
+				E22BFBEC27245172004D2642 /* AppDelegate.swift */,
+				E22BFBEE27245172004D2642 /* ViewController.swift */,
+				E22BFBF027245172004D2642 /* Assets.xcassets */,
+				E22BFBF227245172004D2642 /* Main.storyboard */,
+				E22BFBF527245172004D2642 /* Entitlements.entitlements */,
+			);
+			path = "App (macOS)";
+			sourceTree = "<group>";
+		};
+		E22BFC1627245A2E004D2642 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E22BFC34272469E1004D2642 /* Web Content */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E260B5DD272487C20010008C /* App (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				E260B5DE272487C20010008C /* AppDelegate.swift */,
+				E260B5E0272487C20010008C /* SceneDelegate.swift */,
+				E260B5E2272487C20010008C /* ViewController.swift */,
+				E260B5E4272487C20010008C /* Main.storyboard */,
+				E260B5E7272487C30010008C /* Assets.xcassets */,
+				E260B5E9272487C30010008C /* LaunchScreen.storyboard */,
+				E260B5EC272487C30010008C /* Info.plist */,
+			);
+			path = "App (iOS)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E22BFBE827245172004D2642 /* Snapdrop (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22BFBF827245172004D2642 /* Build configuration list for PBXNativeTarget "Snapdrop (macOS)" */;
+			buildPhases = (
+				E22BFBE527245172004D2642 /* Sources */,
+				E22BFBE627245172004D2642 /* Frameworks */,
+				E22BFBE727245172004D2642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snapdrop (macOS)";
+			productName = snapdrop;
+			productReference = E22BFBE927245172004D2642 /* Snapdrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E260B5DB272487C20010008C /* Snapdrop (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E260B5EF272487C30010008C /* Build configuration list for PBXNativeTarget "Snapdrop (iOS)" */;
+			buildPhases = (
+				E260B5D8272487C20010008C /* Sources */,
+				E260B5D9272487C20010008C /* Frameworks */,
+				E260B5DA272487C20010008C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snapdrop (iOS)";
+			productName = snapdrop;
+			productReference = E260B5DC272487C20010008C /* Snapdrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E22BFBE127245172004D2642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E22BFBE827245172004D2642 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E260B5DB272487C20010008C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = E22BFBE427245172004D2642 /* Build configuration list for PBXProject "Snapdrop" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E22BFBE027245172004D2642;
+			productRefGroup = E22BFBEA27245172004D2642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E22BFBE827245172004D2642 /* Snapdrop (macOS) */,
+				E260B5DB272487C20010008C /* Snapdrop (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E22BFBE727245172004D2642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22BFC35272469E1004D2642 /* Web Content in Resources */,
+				E22BFBF127245172004D2642 /* Assets.xcassets in Resources */,
+				E22BFBF427245172004D2642 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E260B5DA272487C20010008C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E260B5F0272487D20010008C /* Web Content in Resources */,
+				E260B5EB272487C30010008C /* LaunchScreen.storyboard in Resources */,
+				E260B5E8272487C30010008C /* Assets.xcassets in Resources */,
+				E260B5E6272487C20010008C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E22BFBE527245172004D2642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22BFBEF27245172004D2642 /* ViewController.swift in Sources */,
+				E22BFBED27245172004D2642 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E260B5D8272487C20010008C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E260B5E3272487C20010008C /* ViewController.swift in Sources */,
+				E260B5DF272487C20010008C /* AppDelegate.swift in Sources */,
+				E260B5E1272487C20010008C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E22BFBF227245172004D2642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22BFBF327245172004D2642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E260B5E4272487C20010008C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E260B5E5272487C20010008C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E260B5E9272487C30010008C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E260B5EA272487C30010008C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E22BFBF627245172004D2642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E22BFBF727245172004D2642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E22BFBF927245172004D2642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E267AB6B2724AB8F00191D15 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "App (macOS)/Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Snapdrop;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E22BFBFA27245172004D2642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E267AB6B2724AB8F00191D15 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "App (macOS)/Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Snapdrop;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E260B5ED272487C30010008C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E267AB6B2724AB8F00191D15 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App (iOS)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Snapdrop;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E260B5EE272487C30010008C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E267AB6B2724AB8F00191D15 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App (iOS)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Snapdrop;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E22BFBE427245172004D2642 /* Build configuration list for PBXProject "Snapdrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22BFBF627245172004D2642 /* Debug */,
+				E22BFBF727245172004D2642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22BFBF827245172004D2642 /* Build configuration list for PBXNativeTarget "Snapdrop (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22BFBF927245172004D2642 /* Debug */,
+				E22BFBFA27245172004D2642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E260B5EF272487C30010008C /* Build configuration list for PBXNativeTarget "Snapdrop (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E260B5ED272487C30010008C /* Debug */,
+				E260B5EE272487C30010008C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E22BFBE127245172004D2642 /* Project object */;
+}

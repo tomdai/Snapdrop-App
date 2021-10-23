@@ -1,0 +1,4 @@
+Config.xcconfig
+xcuserdata
+*.xcworkspace
+.DS_Store
