@@ -2,7 +2,7 @@
 
 # Snapdrop (app)
 
-Native iOS and macOS apps for [Snapdrop](https://snapdrop.net/) ([GitHub](https://github.com/RobinLinus/snapdrop)).
+iOS and macOS apps for [Snapdrop](https://snapdrop.net/) ([GitHub](https://github.com/RobinLinus/snapdrop)).
 
 Both apps are usable, but you may encounter many little [issues](https://github.com/tomdai/snapdrop-app/issues).
 
